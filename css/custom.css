@@ -1,0 +1,241 @@
+@font-face{
+	font-family: eman;
+	src:url(LibreBaskerville-Bold.ttf);
+}
+body{font-family: eman;overflow-x: hidden;
+	}
+.navbarcustom{
+	background-color:#f2f2f2  ;
+	}
+.search{
+	width: 70px;
+	height: 70px;
+	border-radius: 100px;
+	background-color: green;
+	padding-top: 9px;
+	position: relative;
+	top:50px;
+}
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 8.33%;}
+  .col-s-2 {width: 16.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
+}
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 8.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
+.lettersofenglish{
+	width: 40px;
+	height: 40px;
+	background-color: white;
+	border: 2px solid black ;
+	margin: 10px;
+}
+.flex-container {
+  display: flex;
+ flex-wrap: wrap;
+}
+/* the br under find desesies and condition */
+.brr{
+	width: 150px;
+	height: 6px;
+	background-color: #ccc;
+	margin-left: 130px;
+}
+.img-articals{
+	width: auto;
+	height: 200px;
+}
+.doctor{
+	width: 100%;
+	max-height: 700px;
+}
+.patient-img{
+      width: 100%;
+	min-height: 300px;
+}
+.one{
+	transform: rotate(10deg);
+	margin-left: 120px;
+	margin-top: 50px;
+	margin-right: 40px;
+	width: 220px;
+	height: 220px; 
+}
+.two{transform: rotate(6deg);
+	margin-left: 70px;
+	margin-top: 50px;
+	margin-right: 40px;
+	width: 220px;
+	height: 220px;
+}
+.three{transform: rotate(9deg);
+	margin-left: 70px;
+	width: 220px;
+	height: 220px;margin-left: 10px;
+	margin-top: 50px;
+	margin-right: 50px;
+}
+.four{
+	transform: rotate(6deg);
+	margin-left:55px;
+	width: 220px;
+	height: 220px;
+	margin-top:50px;
+}
+.our-gallary{
+	background-color: #e6ffcc;	 
+}
+.find-condition {
+	margin-top: 30px;
+	padding-top: 30px;
+}
+.about-jordan-clinc {
+	background-color: #e6fff2;
+	margin-top:-40px ;
+	padding-bottom: 200px;
+	padding-top: 90px;
+	font-family: arial;
+	font-size: 17px;	
+}
+.contact-with-us{
+  background-color:#e0e0d1;
+  margin-top: 150px;
+  padding: 70px;
+  padding-bottom: 120px;
+ } 
+}
+.end-gallery{
+	margin-bottom: 150px;
+}
+.footer a{
+	display: block;
+}
+.front{
+	width: 273px;
+	height: 273px;	
+	background-color: #1aff1a;
+	margin-bottom: 30px;
+	}
+.at-top{
+	margin-top: -200px;
+}
+@media only screen and (max-width: 900px) {
+  .at-top {
+    margin-top: 50px;
+  }
+}
+.front1{
+	width: 273px;
+	height: 273px;
+	background-color: #80ff80;
+	margin-bottom: 30px;	
+}
+.fontawesomstyle{
+	margin-left: 90px;
+	margin-top: 35px;
+}
+.fontawesomstyle1{
+	margin-left: 90px;
+}
+.social-media{
+	background-color: #333630;
+	padding: 60px;	
+}
+.social-media a {padding: 30px;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+  font-family: arial;
+}
+.title {
+  color: grey;
+  font-size: 18px;
+}
+.button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+a {
+  text-decoration: none;
+  font-size: 14px;
+  color: black;
+}
+button:hover, a:hover {
+  opacity: 0.7;
+}
+.doctors{
+	padding-top: 37px;
+	padding-bottom: 75px;
+}
+ @media only screen and (max-width: 900px) {
+ .second-doctors   {
+    margin-top:-90px;
+  }
+}
+@media only screen and (max-width: 900px) {
+ .last-doctors   {
+    margin-top:-55px;
+  }
+}
+.doctors img{
+	width: auto;
+	height: 200px;
+}
+.articals{
+	padding-top: 70px;
+	padding-bottom: 40px;
+}
+@media only screen and (max-width: 900px) {
+  .articals  div ,.doctors div  , .tomobile {
+    margin-bottom:21px;
+  }
+}
+.social-media-icon{
+	width: 70px;
+	height: 70px;
+}
+.find{
+	background-image: url(../img/doctor11.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-bottom: 70px;
+}
+@media only screen and (max-width: 900px) {
+  .one , .two ,.three ,.four {
+    margin-left:150px;
+  }
+}
